@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 <html>
   <h>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+      
     <title>Paul Stingley's links</title>
     <style>
       html {min-height: 100%;}
       body {
+        color:floralwhite;
         min-height: 100%;
         padding-top: 40px;
         padding-bottom: 40px;
         background: linear-gradient(90deg, #003f5b, #07374e, #0c2e41, #0e2635, #0e1e29, #0c171e, #060e12, #000000); 
+        font-family: "Impact";
       }
       .avatar-image{width: 128px;
                      height: 128px;
                      object-fit: cover;
                      border-radius: 128px;
+      }
+      a {color:floralwhite;
+        text-decoration: none;
+      }
+      .main-container{max-width: 640px;
+      margin:auto;}
+      .image-row{margin-bottom: 20px; 
+        text-align: center;
+      }
+      .name-row{margin-bottom: 30px;
+        text-align: center;
+        font-family: 'Times New Roman';
+        font-size: 24px;
+        font-weight: 900;
+      }
+      .social-icons-row{margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
       }
     </style>
 </h>
@@ -23,15 +46,17 @@
     <div class="image-row">
       <img class="avatar-image" src="sheng-hu-jWN0vKRKLvk-unsplash.jpg" alt="Paul Stingley headshot">
     </div>
-    <div class="name row">
+    <div class="name-row">
       Paul Stingley
     </div>
     <div class="social-icons-row">
       <a href="https://github.com/psting23" target="_blank">
-        GitHub
+        <i class="fa-brands fa-square-github"></i>
+        
       </a>
       <a href="https://www.linkedin.com/in/paul-stingley-62a23a90" target="_blank">
-        LinkedIn 
+        <i class="fa-brands fa-linkedin"></i>
+        
       </a>
     </div>
 </body>
